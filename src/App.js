@@ -24,7 +24,7 @@ const App = () => {
     return (
         <>
             <Routes>
-                <Route path='/' element={<HomePage />} />
+                <Route path='/e-shop' element={<HomePage />} />
 
                 <Route path='/mobiles' element={<MobilePage />} />
                 <Route path='/mobile/:id' element={<MobileSingle />} />

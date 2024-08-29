@@ -2,7 +2,7 @@ export const mobileData = [{
 
         "id": "1",
         "product": "Mobile",
-        "image": "/assets/NewMobile/1.png",
+        "image": "/e-shop/assets/NewMobile/1.png",
         "company": "OnePlus",
         "model": "CE 2 Lite 5G",
         "price": "1099.00",
@@ -12,7 +12,7 @@ export const mobileData = [{
     {
         "id": "2",
         "product": "Mobile",
-        "image": "/assets/NewMobile/2.jpg",
+        "image": "/e-shop/assets/NewMobile/2.jpg",
         "company": "Oppo",
         "model": "A78 5G",
         "price": "1799.00",
@@ -22,7 +22,7 @@ export const mobileData = [{
     {
         "id": "3",
         "product": "Mobile",
-        "image": "/assets/NewMobile/3.jpg",
+        "image": "/e-shop/assets/NewMobile/3.jpg",
         "company": "OnePlus",
         "model": "9 Pro Max 2",
         "price": "799.99",
@@ -32,7 +32,7 @@ export const mobileData = [{
     {
         "id": "4",
         "product": "Mobile",
-        "image": "/assets/NewMobile/4.jpg",
+        "image": "/e-shop/assets/NewMobile/4.jpg",
         "company": "Samsung",
         "model": "Galaxy M 13 5G",
         "price": "899.00",
@@ -42,7 +42,7 @@ export const mobileData = [{
     {
         "id": "5",
         "product": "Mobile",
-        "image": "/assets/NewMobile/5.jpg",
+        "image": "/e-shop/assets/NewMobile/5.jpg",
         "company": "Vivo",
         "model": "Y 16 Ultra",
         "price": "999.50",
@@ -52,7 +52,7 @@ export const mobileData = [{
     {
         "id": "6",
         "product": "Mobile",
-        "image": "/assets/NewMobile/6.jpg",
+        "image": "/e-shop/assets/NewMobile/6.jpg",
         "company": "Redmi",
         "model": "Note 11 S",
         "price": "1199.00",
@@ -62,7 +62,7 @@ export const mobileData = [{
     {
         "id": "7",
         "product": "Mobile",
-        "image": "/assets/NewMobile/7.jpg",
+        "image": "/e-shop/assets/NewMobile/7.jpg",
         "company": "Techno",
         "model": "Spark 10 5G",
         "price": "749.00",
@@ -72,7 +72,7 @@ export const mobileData = [{
     {
         "id": "8",
         "product": "Mobile",
-        "image": "/assets/NewMobile/8.jpg",
+        "image": "/e-shop/assets/NewMobile/8.jpg",
         "company": "Motorola",
         "model": "Edge 20",
         "price": "599.99",
@@ -82,7 +82,7 @@ export const mobileData = [{
     {
         "id": "9",
         "product": "Mobile",
-        "image": "/assets/NewMobile/9.jpg",
+        "image": "/e-shop/assets/NewMobile/9.jpg",
         "company": "Huawei",
         "model": "P50 Pro",
         "price": "1299.00",
@@ -92,7 +92,7 @@ export const mobileData = [{
     {
         "id": "10",
         "product": "Mobile",
-        "image": "/assets/NewMobile/10.jpg",
+        "image": "/e-shop/assets/NewMobile/10.jpg",
         "company": "Vivo",
         "model": "Find X5 Pro",
         "price": "899.50",
@@ -102,7 +102,7 @@ export const mobileData = [{
     {
         "id": "11",
         "product": "Mobile",
-        "image": "/assets/NewMobile/11.jpg",
+        "image": "/e-shop/assets/NewMobile/11.jpg",
         "company": "OnePlus",
         "model": "11 R 5G",
         "price": "549.00",
@@ -112,7 +112,7 @@ export const mobileData = [{
     {
         "id": "12",
         "product": "Mobile",
-        "image": "/assets/NewMobile/12.jpg",
+        "image": "/e-shop/assets/NewMobile/12.jpg",
         "company": "Oppo",
         "model": "Reno 10 5G",
         "price": "379.99",

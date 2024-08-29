@@ -15,7 +15,7 @@ const Navbar = () => {
         <>
             <div className="navbar-section">
                 <div className="navSection">
-                    <NavLink to='/' className="custom-link">
+                    <NavLink to='/e-shop' className="custom-link">
                         <div className="title">
                             <SiShopee className='shop-icon'/><h2>e-SHOP</h2>
                         </div>
