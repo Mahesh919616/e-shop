@@ -21,7 +21,6 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 0px 50px;
-    /* background: linear-gradient(90deg, rgba(158,4,4,1) 14%, rgba(5,52,49,1) 48%, rgba(10,9,88,1) 91%); */
     background: linear-gradient(90deg, rgba(22,11,111,1) 12%, rgba(9,55,47,1) 48%, rgba(109,12,138,1) 95%);
 }
 .subMenu{
@@ -363,8 +362,47 @@ body{
     background-color: #160B6F;
     color: #fff;
 }
+@media screen and (min-width: 741px) {
+    .navSection-mobile-view, .hamburger-icon-section{
+        display: none;
+    }
+}
 
 @media screen and (max-width: 740px) {
+    .navSection-mobile-view{
+        display: flex;
+        width: 100%;
+        height: 80px;
+        color: white;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 50px;
+        background: linear-gradient(90deg, rgba(22,11,111,1) 12%, rgba(9,55,47,1) 48%, rgba(109,12,138,1) 95%);
+    }
+    .navSection-mobile-view .title{
+        display: flex;
+        align-items: center;
+    }
+    .navSection-mobile-view .title .shop-icon{
+        font-size: 30px;
+        margin-right: 6px;
+        color: orangered;
+    }
+    .login-icon{
+        margin-right: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .hamburger-icon-section{
+        position: absolute;
+        top: 30px;
+        left: 14px;
+        color: #fff;
+    }
+    .hamburger-icon{
+        font-size: 26px;
+        cursor: pointer;
+    }
     body {
         margin: 0;
         padding: 0;
@@ -373,13 +411,12 @@ body{
     .navbar-section {
         width: 100%;
         max-width: 100vw;
+        position: relative;
     }
     .subMenu,
-    .search{
+    .search,
+    .navSection, .cart-img-mobile-view{
         display: none;
-    }
-    .pageImg img {
-        padding-left: 30px;
     }
     .user .cart {
         display: block;
@@ -390,16 +427,37 @@ body{
         max-width: 100vw;
     }
     .pro-selected {
-        display: none;
+        display: -webkit-inline-box;
+        width: 100%;
+        height: fit-content;
+        position: absolute;
+        flex-wrap: wrap;
     }
     .pageSection {
         margin-left: 60px;
-        display: block;
+        margin-top: 130px;
     }
     .cart-section {
         width: 60%;
     }
     .cart-details {
         font-size: small;
+    }
+    .ind-section{
+        display: block;
+    }
+    .ind-image img{
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 4px gray;
+    }
+    .ind-image{
+        width: 300px;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .pro-input {
+        padding-right: 14px;
     }
 }
