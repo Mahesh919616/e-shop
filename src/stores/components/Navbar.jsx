@@ -89,6 +89,7 @@ const Navbar = () => {
                             padding-left: 20px;
                             padding-top: 20px;
                             list-style: none;
+                            z-index: 100;
                         }
                         .subMenu-mobile-view ul li{
                             padding: 10px 0px;
